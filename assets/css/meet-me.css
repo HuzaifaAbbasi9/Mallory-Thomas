@@ -1,0 +1,97 @@
+.interviews-outer {
+    margin-top: 70px;
+}
+#analysis {
+    padding-bottom: 80px;
+    overflow-x: hidden;
+}
+#IDEATION.adjust-seciotn-padding {
+    padding-bottom: 50px;
+}
+#how-might-we, #WIREFRAMING {
+    padding-bottom: 80px;
+}
+.main-section.black-section {
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    background-color: #0C0F0A;
+}
+.blue-heading {
+    font-size: 34px;
+    font-weight: 500;
+    color: #41EAD4;
+    text-align: left;
+}
+#PROTOTYPING {
+    padding-bottom: 50px;
+}
+#OUTCOMES {
+    padding: 70px 0px;
+}
+
+@media (max-width: 992px) {
+    .make-image-center {
+        display: flex;
+    }
+    #analysis {
+        padding-top: 50px;
+    }
+    .make-image-center img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-heading {
+        font-size: 28px;
+    }
+    .blue-heading {
+        font-size: 25px;
+    }
+    .main-section.black-section {
+        border-top-right-radius: 100px;
+        border-bottom-left-radius: 100px;
+        background-color: #0C0F0A;
+    }
+}
+
+@media (max-width: 768px) {
+    .make-image-center-1 {
+        display: flex;
+    }
+    .make-image-center-1 img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .set-after::after {
+        transform: translate(-7%, 5px);
+    }
+    .interviews-outer {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 500px) {
+    #IDEATION {
+        padding-top: 50px;
+    }
+    #analysis {
+        padding-bottom: 40px;
+    }
+    .heaidng-border-bottom  {
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .set-after::after {
+        display: none;
+    }
+    .main-section.black-section {
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    #how-might-we, #WIREFRAMING {
+        padding-bottom: 50px;
+    }
+    #OUTCOMES {
+        padding: 40px 0px;
+    }
+    .blue-heading {
+        font-size: 21px;
+    }
+}
